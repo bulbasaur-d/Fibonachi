@@ -16,17 +16,13 @@ function fib(n = +prompt('Vvedite chislo:')) {
         arr.push(a);
         arr.push(b);
         for (let i = 3; i <= n; i++) {
-
-
             let c = a + b;
             a = b
             b = c
             arr.push(b);
-
-
         }
     }
-    return alert('Rezultat: ' + arr);
+    return alert('Riad: ' + arr);
 }
 
 
